@@ -1,5 +1,5 @@
 {
-  "name": "@rishipackage/cli",
+  "name": "@rishi0258/cli",
   "version": "1.0.0",
   "description": "Command line quiz",
   "main": "index.js",
