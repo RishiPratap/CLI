@@ -1,25 +1,32 @@
 {
-  "name": "cli",
+  "name": "@rishipackage/cli",
   "version": "1.0.0",
   "description": "Command line quiz",
   "main": "index.js",
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/RishiPratap/CLI.git"
-},
+    "url": "git+https://github.com/RishiPratap/CLI.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Rishi Pratap",
   "license": "ISC",
-  "bin":"./index.js",
+  "bin": {
+    "cli": "index.js"
+  },
   "dependencies": {
     "chalk-animation": "^1.6.0",
     "figlet": "^1.5.2",
     "gradient-string": "^2.0.0",
     "inquirer": "^8.2.0",
     "nanospinner": "^1.0.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/RishiPratap/CLI/issues"
+  },
+  "homepage": "https://github.com/RishiPratap/CLI#readme",
+  "devDependencies": {}
 }
